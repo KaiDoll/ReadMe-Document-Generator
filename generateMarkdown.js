@@ -30,7 +30,6 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of Content 
- 
   - [Installation](#installation)
   - [Usage](#usage)
   - [Test](#test)
@@ -48,8 +47,8 @@ ${data.test}
 ${renderLicenseSection(data.license)}
 ## Contributors
 ${data.contribute}
- **Github** 
-${data.gitHub}
+ ## Github 
+Username: ${data.gitHub}
 `;
 }
 
